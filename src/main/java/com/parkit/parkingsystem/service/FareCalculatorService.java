@@ -36,4 +36,7 @@ public class FareCalculatorService {
             default: throw new IllegalArgumentException("Unkown Parking Type");
         }
     }
+
+    public void calculateFare(Ticket ticket, boolean b) {
+    }
 }
